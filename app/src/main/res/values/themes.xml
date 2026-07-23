@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PieBoard" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_app_gradient</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/bg_base</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/bg_base</item>
+        <item name="android:navigationBarColor">@color/bg_base</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.PieBoard.Dialog</item>
+    </style>
+
+    <style name="ThemeOverlay.PieBoard.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSurface">#1C1D22</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+
+    <!-- Slider styled with accent -->
+    <style name="PieBoard.Slider" parent="Widget.Material3.Slider">
+        <item name="thumbColor">@color/accent</item>
+        <item name="trackColorActive">@color/accent</item>
+        <item name="trackColorInactive">@color/glass_stroke</item>
+        <item name="haloColor">@color/glow_red</item>
+    </style>
+
+    <!-- Switch styled with accent -->
+    <style name="PieBoard.Switch" parent="Widget.Material3.CompoundButton.Switch" />
+
+    <style name="PieBoard.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <style name="PieBoard.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="PieBoard.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

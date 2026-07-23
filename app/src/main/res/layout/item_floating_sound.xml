@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:id="@+id/tileClickArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/glass_row_bg"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="4dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPanelSoundName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:maxLines="3"
+            android:ellipsize="end"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="5sp"
+            app:autoSizeMaxTextSize="9sp"
+            app:autoSizeStepGranularity="1sp"
+            tools:text="Vine Boom" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPanelFavorite"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:src="@drawable/ic_star_outline"
+        android:contentDescription="@string/favorite_toggle" />
+
+</FrameLayout>

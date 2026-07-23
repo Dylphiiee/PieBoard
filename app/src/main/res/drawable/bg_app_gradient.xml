@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base vertical gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="@color/bg_gradient_top"
+                android:centerColor="@color/bg_gradient_mid"
+                android:endColor="@color/bg_gradient_bottom" />
+        </shape>
+    </item>
+    <!-- Soft red glow, top right -->
+    <item android:gravity="top|end" android:width="420dp" android:height="420dp"
+        android:top="-140dp" android:end="-140dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="210dp"
+                android:startColor="@color/glow_red"
+                android:endColor="@color/transparent" />
+        </shape>
+    </item>
+    <!-- Soft red glow, bottom left -->
+    <item android:gravity="bottom|start" android:width="360dp" android:height="360dp"
+        android:bottom="-120dp" android:start="-120dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="180dp"
+                android:startColor="@color/glow_red_soft"
+                android:endColor="@color/transparent" />
+        </shape>
+    </item>
+</layer-list>

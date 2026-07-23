@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PieBoard</string>
+    <string name="splash_copyright">©Copyright by Dylphiiee 23 July 2026</string>
+
+    <string name="volume_master">Volume Master</string>
+    <string name="floating_button_label">Floating Button</string>
+    <string name="floating_button_desc">Tampilkan tombol mengambang di atas aplikasi lain</string>
+
+    <string name="add_sound">Tambah Sound</string>
+    <string name="edit_sound">Edit Sound</string>
+    <string name="sound_name_hint">Nama sound</string>
+    <string name="choose_audio_file">Pilih File Audio</string>
+    <string name="no_file_selected">Belum ada file dipilih</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_sound_title">Hapus sound ini?</string>
+    <string name="delete_sound_message">Tindakan ini tidak bisa dibatalkan.</string>
+
+    <string name="empty_state">Belum ada sound.\nTekan tombol + untuk menambahkan.</string>
+    <string name="search_empty_state">Sound tidak ditemukan.</string>
+    <string name="search_hint">Cari sound…</string>
+    <string name="favorite_toggle">Tandai favorit</string>
+    <string name="tab_all">Semua</string>
+    <string name="tab_favorites">★ Favorit</string>
+    <string name="panel_favorite_empty">Belum ada favorit.\nTekan ★ di sound utama.</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+
+    <string name="overlay_permission_title">Izin Diperlukan</string>
+    <string name="overlay_permission_message">PieBoard butuh izin \"Tampil di atas aplikasi lain\" supaya floating button bisa muncul di atas aplikasi lain seperti Roblox atau Discord.</string>
+    <string name="grant_permission">Berikan Izin</string>
+
+    <string name="notif_channel_name">Floating Button PieBoard</string>
+    <string name="notif_title">PieBoard aktif</string>
+    <string name="notif_text">Tombol mengambang sedang berjalan</string>
+
+    <string name="loop_toggle">Ulangi Sound Terus Menerus</string>
+    <string name="stop_sound">Hentikan Sound</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#CC1C1D22" />
+            <stroke android:width="1.5dp" android:color="@color/glass_stroke" />
+        </shape>
+    </item>
+    <!-- Smooth top-to-bottom sheen (no offset ring, so no stray crescent line on small sizes) -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="@color/glass_highlight"
+                android:endColor="@color/transparent" />
+        </shape>
+    </item>
+</layer-list>
